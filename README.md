@@ -20,7 +20,7 @@ fn main() {
     // or you can omit second and third arguments to auto create them
     // don't forget to decode encoded id you have to use all the same 3 numbers
     
-    let enc = Optimus::new(1580030173, None, None);
+    let enc = Optimus::new(1580030173, None, None).unwrap();
     // second number 59260789
     println!("{}", enc.mod_inverse());
     // third number
