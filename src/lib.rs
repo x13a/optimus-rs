@@ -68,7 +68,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_endcode_decode() {
+    fn test_encode_decode() {
         let mut rng = rand::thread_rng();
         for v in &[
             (1580030173, Some(59260789), Some(1163945558)),
